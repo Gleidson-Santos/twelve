@@ -1,0 +1,117 @@
+header{
+	width: 100%;
+	height: 10%;
+	text-align: center;
+}
+body{
+	font-family: 'Kosugi Maru', sans-serif;
+    margin: 0px;
+
+}
+
+section{
+	width: 100%;
+	height: 500px;
+	margin-top: 0px;
+
+}
+img{
+	display: block;
+	/*margin: auto;*/
+	
+}
+footer{
+	width: 100%;
+	text-align: center;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+}
+
+
+
+.bg-piscina{
+	background-color: #58B7B8;
+	/* verde piscina */
+}
+
+.bg-amarelo{
+	background-color: #F8CE3D;
+	/* amarelo: */
+}
+
+
+.bg-palha{
+	background-color: #F2E4B1;
+
+	/* palha: */
+}
+
+.bg-verde{
+	background-color: #12403E;
+	/* verde escuro: */
+}
+
+.bg-laranja{
+	background-color: #DF6127;
+	/* laranja: */
+}
+#quemsomos {
+	font-size: 30px;
+	text-align: center;
+}
+
+#chocobo{
+	animation-name: example;
+	animation-duration: 3s;
+	position: relative;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+}
+#exercicios{
+	
+	text-align: center;
+}
+#contato{
+
+	text-align: center;
+}
+.paragrafo{
+	font-size: 15px;
+
+}
